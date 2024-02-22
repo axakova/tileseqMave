@@ -164,8 +164,8 @@ for (infile in infiles) {
   td <- new.trackdrawer(length(wt.aa),nox=TRUE)
   
   if (!is.null(uniprot)) {
-    cons <- calc.conservation(uniprot)
-    td$add.constrack(cons)
+   # cons <- calc.conservation(uniprot)
+    #td$add.constrack(cons)
 
     # cat("Querying PFam")
     # domains <- fetch.domains.pfam(uniprot)
